@@ -39,6 +39,7 @@ class KeycloakProvider(OAuth2Provider):
             name=data.get("name"),
             user_id=data.get("user_id"),
             picture=data.get("picture"),
+            group=data.get("group"),
         )
 
 
